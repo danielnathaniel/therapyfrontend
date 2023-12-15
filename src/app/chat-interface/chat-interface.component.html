@@ -1,5 +1,7 @@
-<div class="container">
+<div>
   <input [(ngModel)]="prompt" type="text" placeholder="Enter your prompt" />
   <button (click)="sendPrompt()">Send</button>
-  <div class="response">Response: {{ response }}</div>
+</div>
+<div>
+  <p>Response: {{ response }}</p>
 </div>
